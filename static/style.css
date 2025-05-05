@@ -1,0 +1,31 @@
+body{
+    justify-content: center;
+    align-items: center;
+    /*display: flex;*/
+}
+
+header > img{
+    width: 50%;
+}
+
+.nev{
+    font-size: 5rem;
+    
+}
+.al_nev{
+    font-size: 4rem;
+}
+header{
+    text-align: center;
+}
+.test{
+    text-align: center;
+}
+
+.informacio{
+    font-size: 2rem;
+}
+
+q{
+    transform: rotate(180);
+}
