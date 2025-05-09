@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jelentkezés</title>
+    <link rel="stylesheet" href="../static/style.css">
+    
+</head>
+<body>
+    <div class="inps">
+        <form action="">
+            
+            <input type="text" placeholder="Név" name="name" id="name">
+            <select name="hely" id="hely" method="GET" action="/admin/token" onchange="valtozas()">
+                <option value="0" selected>-------------</option>
+                <option value="1">Nem a Kopaszhegyen</option>
+                <option value="2">A Kopaszhegyen</option>
+            </select><br>
+            <div id="inp"></div>
+            <div id="btn"><button disabled>Tovább</button></div>
+            
+                
+            </div>
+            <script src="../static/main.js"></script>
+        </form>
+    </div>
+</body>
+</html>
